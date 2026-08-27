@@ -1,18 +1,26 @@
-# macOS
-.DS_Store
+# Ignore everything at the repository root.
+/*
 
-# R
-.Rhistory
-.RData
-.Rproj.user
+# Keep the submission structure.
+!/.gitignore
+!/discussion/
+!/homework/
+!/project/
 
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.env
-.env.*
+# Keep only weekly discussion questions.
+/discussion/*
+!/discussion/week-[0-9][0-9]-question.md
 
-# Jupyter
-.ipynb_checkpoints/
+# Keep only final weekly homework reports.
+/homework/*
+!/homework/week-[0-9][0-9]/
+/homework/week-[0-9][0-9]/*
+!/homework/week-[0-9][0-9]/homework-[0-9][0-9].pdf
+!/homework/week-[0-9][0-9]/homework-[0-9][0-9].html
+
+# Keep only final-project files.
+/project/*
+!/project/final-report.pdf
+!/project/final-report.html
+!/project/appendix.pdf
+!/project/appendix.html
