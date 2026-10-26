@@ -23,6 +23,8 @@
 !/homework/week-[0-9][0-9]/plot-formatting/SKILL.md
 !/homework/week-[0-9][0-9]/lda-qda-analysis/
 !/homework/week-[0-9][0-9]/lda-qda-analysis/SKILL.md
+!/homework/week-[0-9][0-9]/skill/
+!/homework/week-[0-9][0-9]/skill/skill.md
 
 # Keep only final-project files.
 /project/*
